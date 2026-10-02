@@ -1,6 +1,6 @@
-# Flappy Bird
+# Flarpy Bird
 
-A Flappy Bird-style game made with Unity.
+A Flarpy Bird-style game made with Unity.
 
 ## Open the project
 
