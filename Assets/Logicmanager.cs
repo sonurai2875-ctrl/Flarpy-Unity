@@ -31,9 +31,11 @@ public class Logicmanager : MonoBehaviour
     }
  }
  public void restartGame(){
+    Time.timeScale = 1f;
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
  }
  public void GameOver(){
+    Time.timeScale = 0f;
     GameOverScreen.SetActive(true);
     
  }
