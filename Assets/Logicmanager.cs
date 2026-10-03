@@ -34,6 +34,14 @@ public class Logicmanager : MonoBehaviour
     Time.timeScale = 1f;
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
  }
+ public void QuitGame(){
+    Time.timeScale = 1f;
+    Application.Quit();
+ }
+ public void GoToMainMenu(){
+    Time.timeScale = 1f;
+    SceneManager.LoadScene("MainMenu");
+ }
  public void GameOver(){
     Time.timeScale = 0f;
     GameOverScreen.SetActive(true);
